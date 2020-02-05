@@ -1,0 +1,161 @@
+@import url('https://use.fontawesome.com/releases/v5.11.2/css/all.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:300,400,500,700&display=swap');
+
+html * {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    background: #E1E3E4;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 1.3em;
+    font-size: 14.5px;
+    color: #707070;
+}
+
+body, html {
+    height: 100%;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #134360;
+    -webkit-transition: color 300ms, background-color 300ms;
+    -moz-transition: color 300ms, background-color 300ms;
+    -o-transition: color 300ms, background-color 300ms;
+    transition: color 300ms, background-color 300ms;
+}
+
+a:hover, a:focus {
+    color: #6ABAE2;
+    text-decoration: none;
+    outline: none;
+}
+
+
+header #logo.navbar {
+    background: #FFF;
+    margin: 0;
+    padding: 20px 0;
+}
+
+header #logo.navbar .ml-auto {
+    font-weight: 300;
+    color: #134360;
+    line-height: 1.5em;
+}
+
+header #logo.navbar .ml-auto small {
+    font-size: 0.95em;
+    font-weight: 300;
+}
+
+header #logo.navbar .ml-auto img {
+    width: 44px;
+    height: 44px;
+    float: right;
+}
+
+header #menu.navbar {
+    background: #134360;
+    margin: 0;
+    padding: 0;
+}
+
+header .navbar-brand {
+    margin: 0 0 0 10px;
+}
+
+header .navbar-toggler {
+    z-index: 9999;
+    font-size: 2em;
+    border-radius: 0;
+    margin: 0;
+}
+
+header .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(19,67,96,1)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+header .nav-item {
+    margin: 8px 0;
+    padding: 0 0;
+}
+
+header .nav-item:last-child {
+    border-right: 0;
+}
+
+header .nav-item a.nav-link {
+    color: #FFF;
+    font-size: 0.95em;
+    padding: 0 25px !important;
+    border-right: 1px solid #FFF;
+}
+
+header .nav-item:last-child a.nav-link {
+    border-right: 0;
+}
+
+header .nav-item.active a.nav-link {
+    color: #84BEDF;
+}
+
+header .nav-item.active {
+    border-bottom: 5px solid #84BEDF;
+    margin-bottom: -5px;
+}
+
+header .nav-item a.nav-link:hover,
+header .nav-item a.nav-link:active,
+header .nav-item a.nav-link:focus,
+header .nav-item a.nav-link > li:hover > a,
+header .nav-item a.nav-link.active {
+    color: #84BEDF;
+}
+
+header .nav-item.active > a:hover {
+    color: #84BEDF !important;
+}
+
+header .dropdown-menu {
+    background: #134360;
+    min-width: 230px;
+    padding: 0 0 8px 0;
+    margin: 8px 0 0 0;
+    border-radius: 0;
+    border: 0;
+    border-bottom: 5px solid #84BEDF;
+}
+
+header .dropdown-menu a.dropdown-item {
+    padding: 8px 25px;
+    margin: 0;
+    font-size: 0.8em;
+    color: #FFF;
+}
+
+header .dropdown-menu a:hover, header .menu .dropdown-menu a:active {
+    color: #84BEDF;
+    background: none;
+}
+
+footer {
+    background: #222233;
+    color: #337AB7;
+    text-align: center;
+    font-size: 0.95em;
+    padding: 5px 0;
+    margin-top: 30px;
+}
+
+a {
+    cursor: pointer
+}
